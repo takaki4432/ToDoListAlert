@@ -2,6 +2,8 @@
 
 GoogleスプレッドシートでTo Doリストを管理し、締切日が近づいたら自動でリマインドメールを送信するシステムです。
 
+> デモ用に作成・公開しているサンプルです。個別のサポートや継続的な開発は行っていません。
+
 ## 機能
 
 - ✅ To Doリストの管理（タスク名、担当者、締切日、ステータス）
@@ -114,10 +116,13 @@ const REMINDER_DAYS = [3, 1, 0, -1]; // 3日前、1日前、当日、1日後
 ## ファイル構成
 
 ```
-/home/user/webapp/
-├── README.md              # このファイル
-├── Code.gs                # メインのGoogle Apps Scriptコード
-└── SETUP_GUIDE.md        # 詳細なセットアップガイド
+ToDoListAlert/
+├── README.md                  # このファイル
+├── Code.gs                    # メインのGoogle Apps Scriptコード
+├── SETUP_GUIDE.md             # 詳細なセットアップガイド
+├── FEATURES.md                # 機能と仕様
+├── CUSTOMIZATION_EXAMPLES.md  # カスタマイズ例
+└── LICENSE                    # MIT License
 ```
 
 ## 注意事項
@@ -132,4 +137,4 @@ MIT License - 自由にご利用ください
 
 ## サポート
 
-質問や問題がある場合は、このプロジェクトのIssuesに報告してください。
+デモ用のサンプルのため、個別のサポートは行っていません。
